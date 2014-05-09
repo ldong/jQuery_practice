@@ -5,27 +5,18 @@
 
 (function(){
     var box = $('div.box');
-        fontSize = parseInt(box.css('font-size'), 10);
-    console.log(fontSize);
-    $('button').on('click', function(){
-//        box.css('font-size', fontSize+=5);
-//        box.css('font-size', '+=5');
+        w = $(window).width()/2 - box.outerWidth()/2,
+        h = $(window).height()/2 - box.outerHeight()/2;
 
-//        box.animate({
-//            'font-size': '+=5',  // default is px pixel
-//            'color': 'blue',
-//            'width': '+500'
-//        }, 500, 'swing', function(){
-//            console.log('Complete')
-//        });
-
-        box.
-            animate({
-            'font-size': '+=5'  // default is px pixel
-            }, { duration: 500 }).
-            animate({
-                'top': 500
-            }, {duration: 3000, queue: false}); //false: animate simultaneously
-
+    $('button').on('click', function () {
+       box.animate({
+           'border-radius': 50,
+           'left': w,
+           'position': 'absolute'},
+           {duration: 2000})
+           .animate({
+            'top': h
+           }, {duration: 2000, queue: false});
     });
+
 })();

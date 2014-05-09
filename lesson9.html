@@ -11,7 +11,13 @@
            background-color: green;
            padding: 2em;
            position: relative;
+           -webkit-transition: border-radius 1s;
+           -moz-transition: border-radius 1s;
+           -o-transition: border-radius 1s;
+           -ms-transition: border-radius 1s;
+           transition: border-radius 1s;
         }
+        .rounded{ border-radius: 50px; }
     </style>
 </head>
 
@@ -27,7 +33,7 @@
         </div>
 
         <p>
-            <button>increase</button>
+            <button>center</button>
         </p>
     </div>
     <!--Typically load the script at the end of body -->
