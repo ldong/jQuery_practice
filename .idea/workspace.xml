@@ -26,8 +26,8 @@
       <file leaf-file-name="lesson4.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/lesson4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16491754" vertical-offset="0" max-vertical-offset="667">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.8905547" vertical-offset="0" max-vertical-offset="770">
+              <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
               </folding>
@@ -173,7 +173,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="options.lastSelected" value="reference.idesettings.emmet" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -349,14 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5045872" vertical-offset="123948" max-vertical-offset="127402">
-          <caret line="5649" column="0" selection-start-line="5649" selection-start-column="0" selection-end-line="5649" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/lesson2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23088455" vertical-offset="0" max-vertical-offset="667">
@@ -369,14 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9235382" vertical-offset="0" max-vertical-offset="748">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17628706" vertical-offset="107" max-vertical-offset="748">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -399,6 +383,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5045872" vertical-offset="123948" max-vertical-offset="127402">
+          <caret line="5649" column="0" selection-start-line="5649" selection-start-column="0" selection-end-line="5649" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11388455" vertical-offset="81" max-vertical-offset="748">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.923077" vertical-offset="0" max-vertical-offset="704">
@@ -409,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lesson4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16491754" vertical-offset="0" max-vertical-offset="667">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.8905547" vertical-offset="0" max-vertical-offset="770">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
