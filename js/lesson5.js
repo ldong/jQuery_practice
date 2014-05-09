@@ -25,12 +25,19 @@
         },
 
         show: function () {
-            contactForm.close.call(contactForm.container);
-            contactForm.container[contactForm.config.effect](contactForm.config.speed);
+            var cf = contactForm,
+                container= cf.container,
+                config = cf.config;
+            if(container.is(':hidden')) {
+                contactForm.close.call(container);
+                container[config.effect](config.speed);
+            }
         },
 
         close: function () {
             var $this = $(this);
+            // prevent adding more span close
+            if($this.find('span.close').length){ return;}
             $('<span></span>', {
                 class: 'close',
                 text: 'X'
