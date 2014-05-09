@@ -9,7 +9,14 @@
     var contactForm = {
         container: $('#contact'),
 
-        init: function () {  // same as constructor
+        config: {
+            effect: 'slideToggle',
+            speed: 500
+        },
+
+        init: function (config) {  // same as constructor
+            $.extend(this.config, config);
+
             $('<button></button>', {
                 text: 'Contact Me'
             })
@@ -19,7 +26,7 @@
 
         show: function () {
             contactForm.close.call(contactForm.container);
-            contactForm.container.show();
+            contactForm.container[contactForm.config.effect](contactForm.config.speed);
         },
 
         close: function () {
@@ -30,12 +37,15 @@
             })
                 .prependTo(this)
                 .on('click', function () {
-                    $this.hide();
+                    $this[contactForm.config.effect](contactForm.config.speed);
                 });
         }
 
 
     };
 
-    contactForm.init();
+    contactForm.init({
+//        effect: 'fadeToggle',
+        speed: 300
+    });
 })();
