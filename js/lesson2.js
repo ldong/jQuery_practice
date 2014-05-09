@@ -5,7 +5,7 @@
 
 (function(){
     var dd= $('dd');
-    dd.filter(':nth-child(n+4)').addClass('hide').hide();
+    dd.filter(':nth-child(n+4)').hide();
     $('dl').on('mouseenter', 'dt', function(){
         var $this = $(this);
         console.log($this);
