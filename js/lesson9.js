@@ -9,14 +9,7 @@
         h = $(window).height()/2 - box.outerHeight()/2;
 
     $('button').on('click', function () {
-       box.animate({
-           'border-radius': 50,
-           'left': w,
-           'position': 'absolute'},
-           {duration: 2000})
-           .animate({
-            'top': h
-           }, {duration: 2000, queue: false});
+        box.addClass('rounded')
     });
 
 })();
