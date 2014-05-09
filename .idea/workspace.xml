@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lesson4.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="lesson4.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/lesson4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.16491754" vertical-offset="0" max-vertical-offset="667">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
               </folding>
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson4.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lesson4.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72074884" vertical-offset="0" max-vertical-offset="704">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.923077" vertical-offset="0" max-vertical-offset="704">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -65,8 +65,8 @@
         <option value="$PROJECT_DIR$/css/lesson3.js" />
         <option value="$PROJECT_DIR$/lesson3.html" />
         <option value="$PROJECT_DIR$/js/lesson3.js" />
-        <option value="$PROJECT_DIR$/js/lesson4.js" />
         <option value="$PROJECT_DIR$/lesson4.html" />
+        <option value="$PROJECT_DIR$/js/lesson4.js" />
       </list>
     </option>
   </component>
@@ -399,21 +399,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/lesson4.js">
+    <entry file="file://$PROJECT_DIR$/lesson4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-16.923077" vertical-offset="0" max-vertical-offset="704">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson4.html">
+    <entry file="file://$PROJECT_DIR$/js/lesson4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72074884" vertical-offset="0" max-vertical-offset="704">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.16491754" vertical-offset="0" max-vertical-offset="667">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

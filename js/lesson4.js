@@ -3,5 +3,8 @@
  */
 
 (function(){
-    $('article').append('Whats up!');
+    $('article').append('append!');
+    $('article').prepend('prepend!');
+    $('article').before('before!');
+    $('article').after('after!');
 })();
