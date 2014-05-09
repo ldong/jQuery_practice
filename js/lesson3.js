@@ -4,8 +4,9 @@
 
 (function(){
     var $this = 0;
-    $('h2').bind('click', function(){
+    // live is Deprecated in jQuery2
+    $('h2').live('click', function(){
         console.log('clicked');
-        $(this).clone(true).appendTo('body');
+        $(this).clone().appendTo('body');
     });
 })();
