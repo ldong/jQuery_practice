@@ -19,7 +19,7 @@
 
 
 
-//         this_button = $(this).text("Sup Dude");
+//         this_button = $(this).text("text changed");
 //         event.preventDefault();
 //         $(this_button).hide( "slow" );
      });
