@@ -6,6 +6,6 @@
     var $this = 0;
     $('h2').bind('click', function(){
         console.log('clicked');
-        $(this).clone().appendTo('body');
+        $(this).clone(true).appendTo('body');
     });
 })();
