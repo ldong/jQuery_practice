@@ -4,9 +4,8 @@
 
 (function(){
     var $this = 0;
-    // live is Deprecated in jQuery2
-    $('h2').live('click', function(){
+    $('div.container').delegate('h2', 'click', function(){
         console.log('clicked');
-        $(this).clone().appendTo('body');
+        $(this).clone().appendTo('.container');
     });
 })();
