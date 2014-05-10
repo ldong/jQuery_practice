@@ -3,8 +3,8 @@
  * Created by ldong on 5/8/14.
  */
 
+$(window).load(function () {
 
-(function ($) {
     var sliderUL = $('div.slider').css('overflow', 'hidden').children('ul'),
         imgs = sliderUL.find('img'),
         imgWidth = imgs[0].width,
@@ -49,4 +49,4 @@
             'margin-left': unit ? (unit+ loc) : loc
         });
     }
-})(jQuery); // $ may refer different library, in this proj, $ is for jQuery
+}); // $ may refer different library, in this proj, $ is for jQuery
