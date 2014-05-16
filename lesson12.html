@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <title>Lesson 12</title>
+</head>
+<body>
+<script src="./js/jquery-2.1.1.js"></script>
+<script>
+var myVar;
+var setVal = function(){
+    var deferred = $.Deferred();
+    setTimeout(function(){
+        myVar = 'my value';
+        deferred.resolve();
+        // if needed
+        // deferred.reject(); 
+        
+    }, 2000);
+
+    return deferred.promise();
+}
+
+//setVal().done(function(){
+//setVal().fail(function(){
+setVal().always(function(){
+    console.log('all done '+ myVar);
+});
+
+
+// chaining
+setVal().done(function(){
+    console.log('done' + myVar);
+}).fail(function(){
+    console.log('done' + myVar);
+});
+
+setVal().then(
+    function(){
+        console.log('done' + myVar); // resolve
+    },
+    function(){
+        console.log('done' + myVar); // fail
+    }
+);
+
+</script>
+</body>
+</html>
