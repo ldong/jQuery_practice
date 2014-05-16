@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Lesson 13</title>
+    <title>Lesson 13 Plugins</title>
     <style>
     .box {
         height: 200px;
@@ -14,9 +14,8 @@
 </head>
 <body>
 <h1>My Tweets </h1>
-<div class="box">
-    <div class='tweets'></div>
-</div>
+<div class='tweets'></div>
+
 
 <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
 <script src='searchTwitter.jquery.js'></script>
@@ -38,8 +37,14 @@
     $('ul.tweets').queryTwitter('you');
     */
     
-    $('div.twitter').queryTwitter({
-//        search: 'dogs'
+    $('div.tweets').queryTwitter({
+        search: 'dogs',
+        limit: 10,
+        onComplete: function(){
+            console.log(arguments);
+        },
+        refresh: 10000,
+        transition: 'slideToggle'
     });
 </script>
 </body>

@@ -78,11 +78,11 @@ $.searchTwitter = function(search){
 var outer = $.searchTwitter('cats');
 
 outer.then(function(results){
-    console.log(results);
+    console.log(results);         // both of these will run, once done
 });
 
 outer.then(function(){
-    console.log('something else');
+    console.log('something else');// both of these will run, once done
 });
 
 $('div.box').each(function(i){
