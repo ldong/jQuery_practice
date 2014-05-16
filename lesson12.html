@@ -44,21 +44,33 @@ setVal().then(
 );
 
 $.searchTwitter = function(search){
-    var dfd = new $.Deferred();
+//    var dfd = new $.Deferred();
+//    $.ajax({
+//        url: 'https://search.twitter.com/search.json',
+//        data: {q: search},
+//        dataType: 'jsonp',
+//        success: dfd.resolve
+//        error: dfd.reject
+//    })   
+//    return dfd.promise();
     
-    $.ajax({
+    //or just do this 
+    return $.ajax({
         url: 'https://search.twitter.com/search.json',
         data: {q: search},
-        dataType: 'jsonp',
-        success: function(results){
-            console.log(results);
-        }
-    })   
+        dataType: 'jsonp'
+    }).promise();
 }
 
-$.searchTwitter('cats');
+var outer = $.searchTwitter('cats');
 
+outer.then(function(results){
+    console.log(results);
+});
 
+outer.then(function(){
+    console.log('something else');
+});
 
 
 
