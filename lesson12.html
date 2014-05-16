@@ -2,9 +2,22 @@
 <html>
 <head>
     <title>Lesson 12</title>
+    <style>
+    .box {
+        height: 200px;
+        width: 200px; 
+        background: grey;
+        margin-right: 3em;
+        display: inline-block;
+    }
+    </style>
 </head>
-<body>
 <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+<body>
+<div class="box">My Box</div>
+<div class="box">My Box2</div>
+<div class="box">My Box3</div>
+
 <script>
 var myVar;
 var setVal = function(){
@@ -72,8 +85,26 @@ outer.then(function(){
     console.log('something else');
 });
 
+$('div.box').each(function(i){
+    $(this).delay(1000* i++).fadeOut(1000);
+    console.log('done'); // very quickly finshed
+}).promise().done(function(){
+    console.log('Done, promise tells me');
+});
+console.log('done2'); // very quickly finished 
 
+function getTweets(search){
+    return $.ajax({
+        url: 'https://api.twitter.com/1.1/search/tweets.json',
+        data: {q: search},
+        dataType: 'jsonp'
+    });
+}
 
+$.when(getTweets('dogs'), getTweets('cats')).done(function(results1, results2){
+    console.log(result1);
+    console.log(result2);
+})
 </script>
 </body>
 </html>
