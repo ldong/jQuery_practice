@@ -4,7 +4,7 @@
     <title>Lesson 12</title>
 </head>
 <body>
-<script src="./js/jquery-2.1.1.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
 <script>
 var myVar;
 var setVal = function(){
@@ -42,6 +42,25 @@ setVal().then(
         console.log('done' + myVar); // fail
     }
 );
+
+$.searchTwitter = function(search){
+    var dfd = new $.Deferred();
+    
+    $.ajax({
+        url: 'https://search.twitter.com/search.json',
+        data: {q: search},
+        dataType: 'jsonp',
+        success: function(results){
+            console.log(results);
+        }
+    })   
+}
+
+$.searchTwitter('cats');
+
+
+
+
 
 </script>
 </body>
