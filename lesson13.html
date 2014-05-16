@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>Lesson 13</title>
+    <style>
+    .box {
+        height: 200px;
+        width: 200px; 
+        background: grey;
+        margin-right: 3em;
+        display: inline-block;
+    }
+    </style>
+</head>
+<body>
+<h1>My Tweets </h1>
+<div class="box">
+    <div class='tweets'></div>
+</div>
+
+<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+<script src='searchTwitter.jquery.js'></script>
+
+<script>
+    /*
+    $('ul.tweets').queryTwitter({
+        serach: 'CNN',
+        limit:3,
+        refresh: 4000,
+        transition: 'slideToggle',
+        wrapEachWith: '<p></p>',
+        onComplete: function({
+            console.log('all done');
+        })
+    });
+    $.fn.queryTwitter.options.limit = 3;
+    $('div.tweets').queryTwitter('jeffrey_way');
+    $('ul.tweets').queryTwitter('you');
+    */
+    
+    $('div.twitter').queryTwitter();
+</script>
+</body>
+</html>
